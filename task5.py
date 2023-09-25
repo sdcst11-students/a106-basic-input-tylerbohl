@@ -13,3 +13,8 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+v = input("whats the volume?")
+v = float(v)
+
+print( ( ( v * 3 ) / ( 4 * 3.141592653589793238462643383279502884197 ) ) ** 0.333333333333333333333333333333333333333333333333333 )
